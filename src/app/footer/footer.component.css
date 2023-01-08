@@ -1,0 +1,55 @@
+
+
+    .footer{
+        --text-principal-color: hsl(0, 0%, 100%);
+        --text-secundario-color: hsl(240, 2%, 79%);
+        --bg-color:  hsl(240, 10%, 16%);
+       
+    }
+
+    .footer{
+        background-color:var(--bg-color);
+        color: var(--text-secundario-color);
+        font-size: 16px;
+        font-family: 'Ubuntu', sans-serif;
+        text-align: center;
+        line-height: 2;
+        border-top-right-radius: 70px;
+        margin-top: 5.5rem;
+        padding-bottom: 3rem;
+    }
+
+    .titulo{
+        font-size: 1.8rem;
+        font-weight: 500;
+        color: var(--text-principal-color);
+        padding: 2.3rem;
+    }
+
+    .nome{
+        color: var(--text-principal-color);
+        line-height: 4;
+    }
+
+    @media(min-width:1024px){
+        .footer{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            width: 100%;
+            padding: 2rem 0;
+        }
+
+        .titulo{
+            padding-top: 0;
+        }
+
+        .lista1, .lista2, .lista3{
+            padding-right: 2rem;
+            padding-left: 2rem;
+        }
+
+        .lista3{
+            padding-right: 9rem;
+        }
+    }
