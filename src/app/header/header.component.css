@@ -1,31 +1,173 @@
-.container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 2.5rem  1.5rem 0 1.5rem;
+.container{
+  --bg-gradient2-color:linear-gradient(hsl(13, 100%, 72%), hsl(353, 100%, 62%));
+  --bg-gradient-button-color:linear-gradient(90deg,hsl(13, 100%, 72%), hsl(353, 100%, 62%));
+  --text-principal-color: hsl(0, 0%, 100%);
+  --text-secundario-color: hsl(240, 2%, 79%);
+  --text-hover-color: hsl(355, 100%, 74%);
+  --text-titulos-color:hsl(237, 17%, 21%);
+  --text-texto-color: hsl(237, 23%, 32%);
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  font-family: 'Ubuntu', sans-serif;
+  background-image: url(../../assets/img/bg-pattern-intro-mobile.svg), var(--bg-gradient2-color);
+  background-repeat: no-repeat;
+  background-size: 1200px 1200px, auto;
+  background-position-x: 34%;
+  background-position-y: 27%;
+  border-bottom-left-radius: 70px;
+  height: 600px;
+  color: var(--text-principal-color);
+  margin-bottom: 4rem;
+
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2.5rem  1.5rem 1.5rem 1.5rem;
+  position: relative;
+}
+
+nav{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  margin-top: 7rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  border-radius: 5px;
+  width: 310px;
+  text-align: center;
+  background-color: var(--text-principal-color);
+  color:black;
+  line-height: 2;
+  padding-bottom: 2rem;
+  font-size: 1.5rem;
+  display: none;
+}
+
+.nome{
+  color: var(--text-titulos-color);
+}
+
+li{
+  color: var(--text-texto-color);
+  background-color: rgb(225, 221, 221);
+  border: none;
+  /* border-radius: 5px; */
+  margin-left: 2rem;
+  margin-right: 2rem;
+  font-size: 1.3rem;
+}
+
+/* .lista1 > li:first-child{
+  border-top-left-radius: 50px;
+  background-color: red;
+} */
+
+
+.login, .inscricao{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
+  color: black;
+  background-color: transparent;
+  border: none;
+  padding: 0.8rem 0.5rem;
+  cursor: pointer;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  font-size: 1.5rem;
+
+
+}
+
+.login:hover, .inscricao:hover{
+  background-image: var(--bg-gradient-button-color);
+  color: var(--text-principal-color);
+  border-radius: 50px;
+}
+
+.login{
+
+  margin-top: 2rem;
+  margin-bottom: 1rem;
 }
 
 h1 {
-    font-size: 32px;
-    font-weight: 600;
+  font-size: 32px;
+  font-weight: 600;
 }
 
 .buttonHeader {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 30px;
-    height: 30px;
-    padding: 0;
-    border: none;
-    background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  border: none;
+  background-color: transparent;
 }
 
 .material-symbols-outlined {
-    font-size: 28px;
-    font-variation-settings:
-    'FILL' 100,
-    'wght' 600,
-    'GRAD' 0,
-    'opsz' 50
+  font-size: 28px;
+  color: white;
+  font-variation-settings:
+  'FILL' 100,
+  'wght' 600,
+  'GRAD' 0,
+  'opsz' 50;
+  cursor: pointer;
+}
+
+.material-symbols-outlined:hover{
+
+  /* background-image: url(../../assets/img/icon-close.svg); */
+}
+
+.conteudo{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  line-height: 1.5;
+  padding-right: 2rem;
+  padding-left: 2rem;
+
+}
+
+.titulo{
+  font-weight: 400;
+}
+
+
+.acao{
+  display: flex;
+  gap: 2rem;
+}
+.botao{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
+  color: var(--text-principal-color);
+  background-color: transparent;
+  border: 1px solid var(--text-secundario-color);
+  border-radius: 50px;
+  padding: 0.8rem 1rem;
+  margin-top:2rem;
+  cursor: pointer;
+  font-size: 15px;
+
+}
+
+.botao:hover{
+  background-color: var(--text-principal-color);
+  color:var(--text-hover-color);
 }
