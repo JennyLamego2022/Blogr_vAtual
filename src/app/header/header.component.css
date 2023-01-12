@@ -33,7 +33,7 @@
   position: relative;
 }
 
-nav{
+.navbar{
   position: absolute;
   display: flex;
   flex-direction: column;
@@ -51,6 +51,10 @@ nav{
   display: none;
 }
 
+.navbar-active{
+  display: initial;
+}
+
 .nome{
   color: var(--text-titulos-color);
 }
@@ -63,13 +67,8 @@ li{
   margin-left: 2rem;
   margin-right: 2rem;
   font-size: 1.3rem;
+  display: none;
 }
-
-/* .lista1 > li:first-child{
-  border-top-left-radius: 50px;
-  background-color: red;
-} */
-
 
 .login, .inscricao{
   font-family: 'Ubuntu', sans-serif;
@@ -93,7 +92,6 @@ li{
 }
 
 .login{
-
   margin-top: 2rem;
   margin-bottom: 1rem;
 }
@@ -112,6 +110,14 @@ h1 {
   padding: 0;
   border: none;
   background-color: transparent;
+  background-image: url(../../assets/img/icon-hamburger.svg);
+  background-repeat: no-repeat;
+  transition: 0.3s;
+}
+
+.buttonHeader-active{
+  transition: 0.3s;
+  background-image: url(../../assets/img/icon-close.svg);
 }
 
 .material-symbols-outlined {
@@ -125,10 +131,6 @@ h1 {
   cursor: pointer;
 }
 
-.material-symbols-outlined:hover{
-
-  /* background-image: url(../../assets/img/icon-close.svg); */
-}
 
 .conteudo{
   text-align: center;

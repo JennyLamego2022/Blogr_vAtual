@@ -1,32 +1,30 @@
 <div class="container">
   <div class="nav">
     <h1>Blogr</h1>
-    <button class="buttonHeader">
-        <span class="material-symbols-outlined">menu</span>
-    </button>
+    <button class="buttonHeader" id="buttonHeader" (click)="clickMenu()"></button>
 
   </div>
-  <nav>
+  <nav class="navbar" id="navbar">
 
     <ul class="lista1">
-        <h3 class="nome">Produto <img src="../../assets/img/icon-arrow-dark.svg" alt="Seta para baixo"></h3>
+        <h3 class="nome" id="produto">Produto <img src="../../assets/img/icon-arrow-dark.svg" alt="Seta para baixo"></h3>
         <li>Visão geral</li>
         <li>Preços</li>
         <li>Mercado</li>
         <li>Recursos</li>
         <li>Integrações</li>
     </ul>
-    <br>
+
     <ul class="lista2">
-        <h3 class="nome">Companhia <img src="../../assets/img/icon-arrow-dark.svg" alt="Seta para baixo"></h3>
+        <h3 class="nome" id="companhia">Companhia <img src="../../assets/img/icon-arrow-dark.svg" alt="Seta para baixo"></h3>
         <li>Sobre</li>
         <li>Equipe</li>
         <li>Blog</li>
         <li>Carreiras</li>
     </ul>
-    <br>
+
     <ul class="lista3">
-        <h3 class="nome">Conectar <img src="../../assets/img/icon-arrow-dark.svg" alt="Seta para baixo"></h3>
+        <h3 class="nome" id="conectar">Conectar <img src="../../assets/img/icon-arrow-dark.svg" alt="Seta para baixo"></h3>
         <li>Contato</li>
         <li>Notícias</li>
         <li>LinkedIn</li>
