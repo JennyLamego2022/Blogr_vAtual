@@ -74,6 +74,26 @@ li{
   display: none;
 }
 
+.lista1-active{
+  display: initial;
+}
+
+.lista2{
+  display: none;
+}
+
+.lista2-active{
+  display: initial;
+}
+
+.lista3{
+  display: none;
+}
+
+.lista3-active{
+  display: initial;
+}
+
 .login, .inscricao{
   font-family: 'Ubuntu', sans-serif;
   font-weight: 700;

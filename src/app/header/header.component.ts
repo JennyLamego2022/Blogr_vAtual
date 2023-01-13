@@ -20,13 +20,27 @@ export class HeaderComponent {
       }
   }
 
-  clickSubMenu(): void {
-    const produto = document.getElementById("produto")
+  clickSubMenuP(): void {
+    const lista1 = document.getElementById("lista1");
 
-    if(produto !== null){
-      produto.classList.toggle("li-active")
+      if(lista1 !== null){
+      lista1.classList.toggle("lista1-active")
+      }
 
+  }
+  clickSubMenuCa(): void {
+    const lista2 = document.getElementById("lista2");
 
+      if(lista2 !== null){
+      lista2.classList.toggle("lista2-active")
+      }
+
+  }
+  clickSubMenuCr(): void {
+    const lista3 = document.getElementById("lista3");
+
+      if(lista3 !== null){
+      lista3.classList.toggle("lista3-active")
       }
 
   }
