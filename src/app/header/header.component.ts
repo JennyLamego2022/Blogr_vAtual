@@ -19,6 +19,17 @@ export class HeaderComponent {
 
       }
   }
+
+  clickSubMenu(): void {
+    const produto = document.getElementById("produto")
+
+    if(produto !== null){
+      produto.classList.toggle("li-active")
+
+
+      }
+
+  }
 }
 
 
