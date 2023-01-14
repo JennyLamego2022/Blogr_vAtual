@@ -23,7 +23,7 @@ export class HeaderComponent {
   clickSubMenuP(): void {
     const lista1 = document.getElementById("lista1");
     const imgProduto = document.getElementById("imgProduto")
-
+    
       if(lista1 !== null){
       lista1.classList.toggle("lista1-active")
       imgProduto?.classList.toggle("imgProduto-active")

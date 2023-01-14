@@ -75,6 +75,11 @@ li{
   color: var(--text-titulos-color);
 }
 
+.nome1:hover, .nome2:hover, .nome3:hover{
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
 .imgProduto, .imgCompanhia, .imgConectar{
   background-image: url(../../assets/img/icon-arrow-dark.svg);
   background-repeat: no-repeat;
@@ -116,18 +121,27 @@ li{
   margin-left: 5rem;
   margin-right: 5rem;
   font-size: 1.5rem;
+  transition: 0.3s;
 }
 
 .login:hover, .inscricao:hover{
   background-image: var(--bg-gradient-button-color);
   color: var(--text-principal-color);
   border-radius: 50px;
+  transition: 0.3s;
 }
+/*
+.login:active{
+  background-image: var(--bg-gradient-button-color);
+  color: var(--text-principal-color);
+  border-radius: 50px;
+} */
 
 .login{
   margin-top: 2rem;
   margin-bottom: 1rem;
 }
+
 
 h1 {
   font-size: 32px;
@@ -135,7 +149,7 @@ h1 {
 }
 
 h3{
-  color: var(--text-secundario-color);
+  color: var(--text-principal-color);
 }
 
 .buttonHeader {
@@ -190,11 +204,13 @@ h3{
   margin-top:2rem;
   cursor: pointer;
   font-size: 15px;
+  transition: 0.3s;
 }
 
 .botao:hover{
   background-color: var(--text-principal-color);
   color:var(--text-hover-color);
+  transition: 0.3s;
 }
 
 @media(min-width:768px){
@@ -239,22 +255,23 @@ h3{
   }
 
   .nome1,.nome2, .nome3{
-    color:var(--text-secundario-color)
+    color:var(--text-principal-color)
   }
 
   .login, .inscricao{
-    color: var(--text-secundario-color);
+    color: var(--text-principal-color);
     padding: 0.8rem 0.5rem;
     margin-left: 0;
     margin-right: 0;
     font-size: 1.1rem;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
+    font-weight: 400;
   }
 
   .login{
-    margin-left: 30rem;
-    margin-right: 2rem;
+    margin-left: 15rem;
+    margin-right: 1rem;
     margin-top: 0;
     margin-bottom: 0;
   }
@@ -271,5 +288,10 @@ h3{
     width: 10px;
     height: 5px;
     margin-left: 1px;
+  }
+}
+  @media (min-width:1044px){
+    .login{
+      margin-left: 20rem;
   }
 }
