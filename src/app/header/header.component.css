@@ -21,7 +21,6 @@
   height: 600px;
   color: var(--text-principal-color);
   margin-bottom: 4rem;
-
 }
 
 .nav {
@@ -40,35 +39,32 @@
   margin-top: 7rem;
   margin-left: 2rem;
   margin-right: 2rem;
-  border-radius: 5px;
+  border-radius: 8px;
   width: 310px;
   text-align: center;
   background-color: var(--text-principal-color);
-  color:black;
+  color:var(--text-titulos-color);
   line-height: 2;
   padding-bottom: 2rem;
   font-size: 1.5rem;
-  /* display: none; */
+  display: none;
+  transition: 0.8s;
 }
 
 .navbar-active{
   display: initial;
-}
-
-.nome1{
-  color: var(--text-titulos-color);
+  transition: 0.8s;
 }
 
 li{
   color: var(--text-texto-color);
   background-color: rgb(225, 221, 221);
   border: none;
-  /* border-radius: 5px; */
   margin-left: 2rem;
   margin-right: 2rem;
   font-size: 1.3rem;
-  /* display: none; */
 }
+
 .nome1,.nome2, .nome3{
   display: flex;
   flex-direction: row;
@@ -76,9 +72,10 @@ li{
   align-content: center;
   justify-content: center;
   column-gap: 3px;
+  color: var(--text-titulos-color);
 }
 
-.imgProduto{
+.imgProduto, .imgCompanhia, .imgConectar{
   background-image: url(../../assets/img/icon-arrow-dark.svg);
   background-repeat: no-repeat;
   background-color: transparent;
@@ -89,7 +86,7 @@ li{
   transition: 0.5s;
 }
 
-.imgProduto-active{
+.imgProduto-active, .imgCompanhia-active, .imgConectar-active{
   background-image: url(../../assets/img/chevron-up-regular-24.png);
   background-repeat: no-repeat;
   background-position-y: 100%;
@@ -100,87 +97,25 @@ li{
   transition: 0.5s;
 }
 
-.lista1{
+.lista1, .lista2, .lista3{
   display: none;
 }
 
-.lista1-active{
-  display: initial;
-}
-
-.imgCompanhia{
-  background-image: url(../../assets/img/icon-arrow-dark.svg);
-  background-repeat: no-repeat;
-  background-color: transparent;
-  width: 10px;
-  height: 10px;
-  border: none;
-  border: none;
-  transition: 0.5s;
-}
-
-.imgCompanhia-active{
-  background-image: url(../../assets/img/chevron-up-regular-24.png);
-  background-repeat: no-repeat;
-  background-position-y: 100%;
-  background-color: transparent;
-  background-size: contain;
-  width: 20px;
-  height: 20px;
-  transition: 0.5s;
-}
-
-.lista2{
-  display: none;
-}
-
-.lista2-active{
-  display: initial;
-}
-
-.imgConectar{
-  background-image: url(../../assets/img/icon-arrow-dark.svg);
-  background-repeat: no-repeat;
-  background-color: transparent;
-  width: 10px;
-  height: 10px;
-  border: none;
-  border: none;
-  transition: 0.5s;
-}
-
-.imgConectar-active{
-  background-image: url(../../assets/img/chevron-up-regular-24.png);
-  background-repeat: no-repeat;
-  background-position-y: 100%;
-  background-color: transparent;
-  background-size: contain;
-  width: 20px;
-  height: 20px;
-  transition: 0.5s;
-}
-
-.lista3{
-  display: none;
-}
-
-.lista3-active{
+.lista1-active, .lista2-active, .lista3-active{
   display: initial;
 }
 
 .login, .inscricao{
   font-family: 'Ubuntu', sans-serif;
   font-weight: 700;
-  color: black;
+  color: var(--text-titulos-color);
   background-color: transparent;
   border: none;
-  padding: 0.8rem 0.5rem;
+  padding: 0.8rem 1.5rem;
   cursor: pointer;
   margin-left: 5rem;
   margin-right: 5rem;
   font-size: 1.5rem;
-
-
 }
 
 .login:hover, .inscricao:hover{
@@ -197,6 +132,10 @@ li{
 h1 {
   font-size: 32px;
   font-weight: 600;
+}
+
+h3{
+  color: var(--text-secundario-color);
 }
 
 .buttonHeader {
@@ -218,7 +157,6 @@ h1 {
   background-image: url(../../assets/img/icon-close.svg);
 }
 
-
 .conteudo{
   text-align: center;
   display: flex;
@@ -230,18 +168,17 @@ h1 {
   line-height: 1.5;
   padding-right: 2rem;
   padding-left: 2rem;
-
 }
 
 .titulo{
   font-weight: 400;
 }
 
-
 .acao{
   display: flex;
   gap: 2rem;
 }
+
 .botao{
   font-family: 'Ubuntu', sans-serif;
   font-weight: 700;
@@ -253,10 +190,86 @@ h1 {
   margin-top:2rem;
   cursor: pointer;
   font-size: 15px;
-
 }
 
 .botao:hover{
   background-color: var(--text-principal-color);
   color:var(--text-hover-color);
+}
+
+@media(min-width:768px){
+  .container{
+    height: 500px;
+  }
+
+  .navbar-active {
+    left: 50%;
+  }
+}
+
+@media(min-width:1024px){
+  .container{
+    height: 500px;
+  }
+  .nav{
+    display:flex;
+    flex-direction: row;
+  }
+
+  .buttonHeader{
+    display:none;
+  }
+
+  .navbar{
+    display: initial;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    column-gap: 1rem;
+    margin-top: 2rem;
+    margin-left: 10rem;
+    margin-right: 0;
+    background: transparent;
+    color: var(--text-secundario-color);
+    font-size: 1.1rem;
+    padding-bottom: 0;
+    width: 310px;
+    cursor: pointer;
+  }
+
+  .nome1,.nome2, .nome3{
+    color:var(--text-secundario-color)
+  }
+
+  .login, .inscricao{
+    color: var(--text-secundario-color);
+    padding: 0.8rem 0.5rem;
+    margin-left: 0;
+    margin-right: 0;
+    font-size: 1.1rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .login{
+    margin-left: 30rem;
+    margin-right: 2rem;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .login:hover, .inscricao:hover{
+    background-color: var(--text-principal-color);
+    background-image: none;
+    color:var(--text-hover-color);
+    border-radius: 50px;
+  }
+
+  .imgProduto, .imgCompanhia, .imgConectar{
+    background-image: url(../../assets/img/icon-arrow-light.svg);
+    width: 10px;
+    height: 5px;
+    margin-left: 1px;
+  }
 }
