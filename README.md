@@ -18,14 +18,16 @@ Projeto inspirado no Frontend Mentor (https://www.frontendmentor.io/challenges/b
 
 <h3> :camera: Página Mobile</h3>
 
-![Page mobile](https://user-images.githubusercontent.com/102830741/212414293-2668589f-22f4-4132-8d88-5e2d8700e01d.png) ![Page mobile active](https://user-images.githubusercontent.com/102830741/212427463-f01e3370-657a-44cc-8a1d-67e5c05612d3.png)
-
+<div align="center">
+<img  src = "https://user-images.githubusercontent.com/97410860/212763985-7795b4a1-ed57-4cfc-a3b9-d1a5e28a4f90.png" width = "375px"/>
+<img  src = "https://user-images.githubusercontent.com/97410860/212763996-8d7e19aa-05bd-4e48-b92d-2c955506240f.png" width = "375px"/>
+</div>
 
 <h3> :camera: Página Desktop</h3>
-
-![Page desktop](https://user-images.githubusercontent.com/102830741/212415570-d3c63a6f-cfdf-4a70-af96-558fc9a7e4c9.png) ![Page desktop active](https://user-images.githubusercontent.com/102830741/212427522-0939f512-656a-45b9-92d8-25f7cff118ee.png)
-
-
+<div align="center">
+<img  src = "https://user-images.githubusercontent.com/97410860/212763993-dd6f843f-6f3a-40be-9faa-6a40e8c2037d.png" width = "375px"/>
+<img  src = "https://user-images.githubusercontent.com/97410860/212763998-f0fbbceb-2e1c-40b7-9302-43d852af641b.png" width = "375px"/>
+</div>
 
 ## Etapas
 
@@ -106,5 +108,8 @@ Foi um aprendizado enorme... uma parceria muito boa!!! Que venham os próximos p
 
 ## Desenvolvedora
 
- <!-- | [<img src="https://avatars.githubusercontent.com/u/102830741?s=400&u=eb0ed821d5deeaaac9a910f737ce38ddfda2f3a9&v=4" width=115><br><sub>Jennyfer Lamego</sub>](https://github.com/JennyLamego2022) 
- | :---: | -->
+<br><br>
+<div align="center">
+<img  src = "https://user-images.githubusercontent.com/97410860/212765655-361def29-f259-48d1-af01-36bd93380510.jpg" width = "150px"/>
+<h3>Jennyfer Lamego</h3>
+</div>
