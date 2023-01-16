@@ -76,7 +76,7 @@ Hospedagem:
 
  ## Clonagem
 
- . Pré-requisitos para rodar <a name="id05"></a>
+ ### Pré-requisitos para rodar <a name="id05"></a>
 
 <br />
 
@@ -86,7 +86,7 @@ Hospedagem:
 
 <br />
 
-. Procedimentos de instalação <a name="id06"></a>
+### Procedimentos de instalação <a name="id06"></a>
 
 <br />
 
