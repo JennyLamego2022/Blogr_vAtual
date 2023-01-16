@@ -106,5 +106,5 @@ Foi um aprendizado enorme... uma parceria muito boa!!! Que venham os próximos p
 
 ## Desenvolvedora
 
- | [<img src="https://avatars.githubusercontent.com/u/102830741?s=400&u=eb0ed821d5deeaaac9a910f737ce38ddfda2f3a9&v=4" width=115><br><sub>Jennyfer Lamego</sub>](https://github.com/JennyLamego2022) 
- | :---: |
+ <!-- | [<img src="https://avatars.githubusercontent.com/u/102830741?s=400&u=eb0ed821d5deeaaac9a910f737ce38ddfda2f3a9&v=4" width=115><br><sub>Jennyfer Lamego</sub>](https://github.com/JennyLamego2022) 
+ | :---: | -->
