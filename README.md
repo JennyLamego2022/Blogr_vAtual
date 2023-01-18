@@ -11,7 +11,7 @@
 
 ## Descrição
 
-Projeto inspirado no Frontend Mentor (https://www.frontendmentor.io/challenges/blogr-landing-page-EX2RLAApP), uma landing page com design moderno. Pagina com um menu suspenso tipo hamburguer para o layout Mobile. Esse projeto foi escolhido para poder utilizar o framework Angular e poder ter novas experiências com essa ferramenta. Foi iniciado em HTML, seguido de CSS e TypeScript. 
+ Uma landing page com design moderno. Página com um menu suspenso tipo hambúrguer para o layout Mobile. Esse projeto foi escolhido para poder utilizar o framework Angular e poder ter novas experiências com essa ferramenta. Foi iniciado em HTML, seguido de CSS e TypeScript. Projeto inspirado no Frontend Mentor (https://www.frontendmentor.io/challenges/blogr-landing-page-EX2RLAApP),
 
 
 ## Imagens
@@ -31,7 +31,7 @@ Projeto inspirado no Frontend Mentor (https://www.frontendmentor.io/challenges/b
 
 ## Etapas
 
-**Mobile Firt**
+**Mobile First**
 
  - [x] Cabeçalho com Logo, menu hamburguer;
 
@@ -73,7 +73,7 @@ Projeto inspirado no Frontend Mentor (https://www.frontendmentor.io/challenges/b
  
 Hospedagem:
 
- xxxxxx
+Em breve, hospedagem no Vercel.
 
 
  ## Clonagem
